@@ -82,7 +82,31 @@ git clone https://github.com/Akshay-Notfound/datamind-analytics.git
 cd datamind-analytics
 ```
 
-*(Add your specific frontend and backend setup instructions here)*
+### 2. Run with Docker (Recommended)
+The easiest way to run the entire platform is using Docker Compose:
+```bash
+docker-compose up --build
+```
+*The frontend will be available at `http://localhost:3000` and the backend API at `http://localhost:8000`.*
+
+### OR Run Manually
+
+**Backend Setup (Python/FastAPI):**
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate      # Windows
+# source venv/bin/activate # Mac/Linux
+pip install -r requirements.txt
+python main.py
+```
+
+**Frontend Setup (Next.js):**
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
 <br/>
 
