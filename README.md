@@ -1,7 +1,6 @@
 <div align="center">
 
-<!-- Dynamic Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:6366f1&height=250&section=header&text=DataMind%20AI&fontSize=80&fontColor=ffffff&desc=Automated%20Data%20Analysis%20%26%20Business%20Intelligence&descAlignY=75&descSize=25" width="100%" alt="DataMind AI Banner"/>
+<img src="assets/banner.png" width="100%" alt="DataMind AI Banner"/>
 
 <br/>
 
