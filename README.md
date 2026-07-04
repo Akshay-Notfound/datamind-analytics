@@ -1,10 +1,50 @@
-# DataMind AI
+<div align="center">
 
-DataMind AI is a comprehensive Business Intelligence platform designed to automate data analysis and visualization. Built with a modern React/Next.js frontend and a robust Python backend, it empowers users to explore data, generate interactive dashboards, and uncover valuable insights without needing complex coding skills.
+<!-- Dynamic Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:6366f1&height=250&section=header&text=DataMind%20AI&fontSize=80&fontColor=ffffff&desc=Automated%20Data%20Analysis%20%26%20Business%20Intelligence&descAlignY=75&descSize=25" width="100%" alt="DataMind AI Banner"/>
 
-## Architecture & Data Flow
+<br/>
 
-Below is the high-level data flow diagram illustrating how data moves through the DataMind AI platform:
+[**Documentation**](#) • [**Demo**](#) • [**Backend API**](#) • [**Frontend**](#)
+
+<br/>
+
+<!-- Tech Stack Badges (Using 'for-the-badge' style for that blocky, premium look) -->
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+
+</div>
+
+---
+
+## 🧠 What is DataMind AI?
+
+DataMind AI is an end-to-end Automated Data Analysis and Business Intelligence platform built to create smarter, faster insights. Most BI tools require complex configurations or coding knowledge; DataMind AI is focused on making data analytics accessible, dynamic, and instantly actionable.
+
+Simply upload your raw data, and DataMind AI automatically processes it, identifies key trends, and generates an interactive, fully-functional dashboard without writing a single line of code.
+
+> 🎥 **Demo Video** (Replace with your actual video or GIF later)
+> 
+> *Screenshot or Video placeholder showcasing the dashboard in action.*
+> ![Dashboard Demo](https://via.placeholder.com/800x400/1e293b/ffffff?text=DataMind+AI+Dashboard+Demo)
+
+<br/>
+
+## ✨ Key Features
+
+- **Automated Dashboards**: Upload a CSV and instantly get a tailored dashboard.
+- **Global Data Slicers**: Filter your data across all charts simultaneously for deep, interconnected insights.
+- **Interactive Chart Explorer**: Dive deep into specific metrics, visualize trends, and export your findings.
+- **AI-Driven Processing**: Built-in intelligent data cleaning, type inference, and aggregation.
+
+<br/>
+
+## 🏗️ Architecture & Data Flow
 
 ```mermaid
 graph TD
@@ -28,14 +68,41 @@ graph TD
     UI -->|Renders Interactive Dashboard| User
 ```
 
-## Tech Stack
+<br/>
 
-- **Frontend:** Next.js, React, TypeScript, Tailwind CSS
-- **Backend:** Python, FastAPI, Pandas
-- **Containerization:** Docker
+## 🚀 Getting Started
 
-## Features
+### Prerequisites
+- Node.js (v18+)
+- Python (v3.10+)
+- Docker (Optional)
 
-- **Automated Dashboards:** Upload your data and instantly get a tailored dashboard.
-- **Global Slicers:** Filter your data across all charts simultaneously.
-- **Interactive Data Explorer:** Dive deep into specific metrics and trends.
+### 1. Clone the repository
+```bash
+git clone https://github.com/Akshay-Notfound/datamind-analytics.git
+cd datamind-analytics
+```
+
+*(Add your specific frontend and backend setup instructions here)*
+
+<br/>
+
+## 🛠️ Technologies Used
+
+### Frontend
+- **Framework**: Next.js 14 (App Router)
+- **Library**: React 18
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Charts**: Plotly / Recharts
+
+### Backend
+- **Framework**: FastAPI
+- **Language**: Python 3.11
+- **Data Processing**: Pandas, NumPy
+- **Database**: MongoDB (via Motor)
+
+---
+<div align="center">
+Built by Akshay
+</div>
